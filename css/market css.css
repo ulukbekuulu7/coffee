@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(100deg, #111111, #360236, #3c2b56, #110828);
+    font-family: 'Ruda', sans-serif;
+}
+
+
+#header {
+    margin: 20px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-not a {
+    padding: 0 30px;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.header-not h3 {
+    margin-top: -20px;
+    margin-left: 780px;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.header-now button {
+    background: linear-gradient(10deg, #c800ff, #7f32f1);
+    padding: 0 30px;
+    font-weight: 700;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.header-now button:hover {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
